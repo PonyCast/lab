@@ -1,0 +1,13 @@
+{
+  "name": "threejs-lab",
+  "version": "1",
+  "authors": [
+    "Juan Pablo Barrientos <m.juanpablob@gmail.com>",
+    "Matías Halles <matias.halles@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "threejs": "*"
+  }
+}

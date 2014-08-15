@@ -1,0 +1,19 @@
+{
+  "name": "viz1",
+  "version": "0.0.1",
+  "homepage": "https://github.com/PonyCast/lab",
+  "authors": [
+    "Juan Pablo <m.juanpablob@gmail.com>"
+  ],
+  "main": "assets/js/app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor"
+  ]
+}

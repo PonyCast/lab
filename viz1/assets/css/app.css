@@ -24,9 +24,20 @@ body {
 	width: 100%;
 	height: auto;
 }
+.username {
+	display: none;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-weight: bold;
+	font-size: 200px;
+	z-index: 9999;
+}
 
 #layer2 {
-	opacity: 0.4;
+	opacity: 0.3;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
@@ -35,4 +46,23 @@ body {
 #layer2 img {
 	width: 100%;
 	height: auto;
+}
+
+@keyframes changewidth {
+  from {
+    width: 30px;
+  }
+
+  to {
+    width: 80px;
+  }
+}
+
+.bubble {
+	animation-duration: 0.8s;
+	animation-name: changewidth;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	opacity: 0.5;
+
 }

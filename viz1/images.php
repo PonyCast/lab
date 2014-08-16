@@ -2,39 +2,39 @@
 	$lala = array(
 		0 => array(
 			'username' => 'juanito',
-			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10597496_338384076317608_210125475_n.jpg'
+			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xpa1/t51.2885-15/925252_1545170232376992_1464886935_n.jpg'
 		),
 		1 => array(
 			'username' => 'pedrito',
-			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xpa1/t51.2885-15/927910_228563820684021_876095255_n.jpg'
+			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10616668_306175259564167_905932375_n.jpg'
 		),
 		2 => array(
 			'username' => 'pablito',
-			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xfa1/t51.2885-15/10009337_651095021593846_1953946825_n.jpg'
+			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10607943_258786974244958_1278999943_n.jpg'
 		),
 		3 => array(
 			'username' => 'matias',
-			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xpa1/t51.2885-15/1737272_499400330187324_1966712825_n.jpg'
+			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10616948_773591946026442_890884864_n.jpg'
 		),
 		4 => array(
 			'username' => 'carito',
-			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xpf1/t51.2885-15/10268995_235103090016739_389576236_n.jpg'
+			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xaf1/t51.2885-15/10608162_735313429856307_1266057305_n.jpg'
 		),
 		5 => array(
 			'username' => 'laurita',
-			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xap1/t51.2885-15/927414_275760605943493_2121221890_n.jpg'
+			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xaf1/t51.2885-15/10611243_414148238726456_622222353_n.jpg'
 		),
 		6 => array(
 			'username' => 'danielita',
-			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10598757_319766818201861_1096410584_n.jpg'
+			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10569947_1620175388208895_1969581918_n.jpg'
 		),
 		7 => array(
 			'username' => 'pacita',
-			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/914458_554137218019918_189079656_n.jpg'
+			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xaf1/t51.2885-15/10598263_816437938387730_842476637_n.jpg'
 		),
 		8 => array(
 			'username' => 'jacinto',
-			'photo' => 'http://scontent-a.cdninstagram.com/hphotos-xpf1/t51.2885-15/1389317_280508575474857_1386631364_n.jpg'
+			'photo' => 'http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10597355_549113728548983_1064995222_n.jpg'
 		)
 	);
 
@@ -53,5 +53,5 @@
 		11 => 'pop12.gif'
 	);
 
-	echo json_encode($gifs);
+	echo json_encode($lala);
 ?>

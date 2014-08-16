@@ -17,6 +17,6 @@
     "vendor"
   ],
   "dependencies": {
-    "dancer.js": "jsantell/dancer.js#~0.4.0"
+    "dancer.js": "https://github.com/jsantell/dancer.js.git#~0.4.0"
   }
 }

@@ -3,14 +3,37 @@ var app = {
 
 	photostream: function() {
 		$.getJSON('assets/etc/photos.json', function(data) {
-			everyTime(3)
 			$.each(data, function(index, item) {
-				$('#layer1 img').attr('src', item.photo);
+				setTimeout(function() {
+					$('#layer1 img').attr('src', item.photo);
+				}, 2000 * index);
 			});
 		});
 	},
 
-	lala: function() {
-		
+	gifs: function() {
+		$.getJSON('assets/etc/gifs.json', function(data) {
+			$.each(data, function(index, item) {
+				setTimeout(function() {
+					$('#layer2 img').attr('src', 'assets/img/' + item);
+					console.log('assets/img/' + item);
+				}, 1500 * index);
+			});
+		});
 	}
 }
+
+function kickphoto() {
+	$('#layer1 img').animate({
+			width: '120%'
+		}, 50, function() {
+			$('#layer1 img').animate({
+				width: '100%'
+			}, 50);
+		});
+}
+
+$(document).ready(function() {
+	app.photostream();
+	app.gifs();
+})

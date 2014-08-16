@@ -4,4 +4,35 @@
 }
 body {
 	background-color: black;
+	color: white;
+}
+
+#layer1,
+#later2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#layer1 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+#layer1 img {
+	width: 100%;
+	height: auto;
+}
+
+#layer2 {
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 100;
+}
+#layer2 img {
+	width: 100%;
+	height: auto;
 }

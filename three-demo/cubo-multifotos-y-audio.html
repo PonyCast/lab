@@ -55,6 +55,18 @@
         cube.rotation.y += 0.01;
         cube.rotation.z += 0.003;
 
+        if(animating == 1){
+          scaleDelta++;
+          scale = 1.03;
+          cube.scale.set( scale, scale, scale);
+          if (scaleDelta >= 5) animating = -1;
+        }else if(animating == -1){
+          scaleDelta--;
+          scale = 0.97;
+          cube.scale.set( scale, scale, scale);
+          if (scaleDelta <= 0) animating = 0;
+        }
+
         renderer.render(scene, camera);
       }
 
@@ -63,11 +75,14 @@
       var audio  = document.getElementsByTagName('audio')[0],
       dancer = new Dancer(),
       object = {},
-      animating = false;
+      animating = 0;
+      scaleDelta = 0;
       kick = dancer.createKick({
         onKick: function ( mag ) {
           console.log('Kick!');
-          cube.translateZ(2);
+          if(animating == 0){
+            animating = 1;
+          }
         },
         offKick: function ( mag ) {
           console.log('no kick :(');
